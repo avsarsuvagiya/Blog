@@ -1,0 +1,114 @@
+  .blog-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  input,
+  textarea {
+    cursor: pointer;
+  }
+
+  .blog-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+
+  /* Edit Blog Form Wrapper */
+.edit-form-wrapper {
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem auto;
+  background-color: #1e1e2f; /* Dark theme */
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Form labels and inputs */
+.edit-form-wrapper label {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.edit-form-wrapper input,
+.edit-form-wrapper select,
+.edit-form-wrapper textarea {
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .edit-form-wrapper {
+    padding: 1.5rem;
+    margin: 1rem auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .edit-form-wrapper {
+    padding: 1rem;
+  }
+
+  .edit-form-wrapper h3 {
+    font-size: 1.4rem;
+  }
+
+  .edit-form-wrapper label {
+    font-size: 1rem;
+  }
+}
+
+/* Button styling */
+.edit-form-wrapper .btn {
+  margin-top: 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+
+
+  /* Responsive filter input styles */
+  .search-filter-container {
+    gap: 0.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .search-filter-container {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .search-filter-container .form-control,
+    .search-filter-container .form-select {
+      width: 100% !important;
+      margin: 0.25rem 0;
+    }
+  }
+
+  /* Blog Card Styling for responsiveness */
+  .blog-card {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+  }
+
+  .blog-card:hover {
+    transform: translateY(-4px);
+  }
+
+  /* Adjust spacing on small screens */
+  @media (max-width: 576px) {
+    .blog .col-lg-4 {
+      width: 100%;
+    }
+  }
