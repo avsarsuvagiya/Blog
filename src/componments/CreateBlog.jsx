@@ -33,7 +33,7 @@ const CreateBlog = ({ getdata }) => {
   });
 
   return (
-    <div className="w-50 m-auto">
+    <div className="create-form-wrapper">
       <div className="text-center">
         <h3 >Create Blog</h3>
 

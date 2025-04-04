@@ -14,7 +14,8 @@
   }
 
   /* Edit Blog Form Wrapper */
-.edit-form-wrapper {
+.edit-form-wrapper,
+.create-form-wrapper {
   max-width: 600px;
   width: 100%;
   margin: 2rem auto;
