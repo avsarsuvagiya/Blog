@@ -98,3 +98,4 @@ const Home = ({ blogs, removeItem }) => {
 };
 
 export default Home;
+

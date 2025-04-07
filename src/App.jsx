@@ -41,6 +41,7 @@ function App() {
   };
   return (
     <div>
+      
       <Routes>
         <Route path="/" element={<Home blogs={blogs} removeItem={removeItem} />} />
         <Route path="create" element={<CreateBlog getdata={getdata} />} />
@@ -52,4 +53,3 @@ function App() {
 }
 
 export default App;
-
